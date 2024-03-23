@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ],
+    "files": [
+      "core.ts",
+      "sys.ts",
+      "types.ts",
+      "scanner.ts",
+      "parser.ts",
+      "utilities.ts",
+      "binder.ts",
+      "checker.ts",
+      "emitter.ts",
+      "program.ts",
+      "commandLineParser.ts",
+      "tsc.ts",
+      "diagnosticInformationMap.generated.ts"
+    ]
+  }
